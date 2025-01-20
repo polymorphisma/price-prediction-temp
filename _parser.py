@@ -2,8 +2,8 @@ import pandas as pd
 import os
 from utils import generate_file, return_files
 
-stock_price_directory = r'/home/polymorphisma/self/StockAnalysis/data/stockwise'
-save_directory = r'/home/polymorphisma/self/StockAnalysis/data/parsed'
+stock_price_directory = r'/home/polymorphisma/experiments/testing/data/stockwise'
+save_directory = r'/home/polymorphisma/experiments/testing/data/parsed'
 float_columns = ['open_price', 'high_price', 'low_price', 'close_price', 'total_traded_quantity', 'total_traded_value']
 
 
